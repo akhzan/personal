@@ -1,0 +1,33 @@
+.contact-email {
+	margin-left: 10%;
+	padding: 0;
+	position: fixed;
+	bottom: 10%;
+}
+
+.contact-email h1 {
+	margin: 0;
+}
+
+.contact-email a {
+	text-decoration: none;
+	font-size: 1.45em;
+	color: #5c5e62;
+}
+
+.contact-sm {
+	margin-left: 65%;
+	padding: 0;
+	position: fixed;
+	bottom: 10%;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-sm {
+	margin-left: 10%;
+	padding: 0;
+	position: relative;
+	font-size: 1.2em;
+  }
+}

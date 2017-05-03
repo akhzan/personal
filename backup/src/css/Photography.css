@@ -1,0 +1,113 @@
+.cardImage{
+	width: 300px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.img-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 auto;
+}
+
+.responsive-image {
+  max-width: calc(100% - 1rem);
+  background-position: center center;
+}
+
+.cell img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: 33.3333%;
+  }
+}
+
+.square-container{
+	margin: 0 1% 0 1%;
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 32%;
+    padding-bottom : 32%; /* = width for a 1:1 aspect ratio */
+    margin:.66%;
+    overflow:hidden;
+}
+
+.square-img{
+	width: 100%;
+}
+
+.content {
+    position:absolute;
+    height:96%; /* = 100% - 2*5% padding */
+    width:96%; /* = 100% - 2*5% padding */
+    padding: 2%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}

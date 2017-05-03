@@ -1,0 +1,34 @@
+.profile {
+	margin: 100px 0 0 8%;
+	width: 50%;
+}
+
+.profile p {
+	padding: 10px 0;
+}
+
+.profile > p > span {
+	font-weight: 700;
+	padding-right: 5px !important;
+}
+
+.p1-profile {
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.p2-profile {
+	font-size: .8em;
+}
+
+.p1-profile, .p2-profile {
+	margin: 0;
+	padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+  	.profile {
+		margin: 100 0 0 8%;
+		width: 90%;
+	}
+}

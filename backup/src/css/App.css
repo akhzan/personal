@@ -1,0 +1,162 @@
+.App {
+  color: #5c5e62;
+  font-family: Roboto;
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25px;
+}
+
+.App-header {
+  z-index: 99;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  width: 100%;
+}
+  
+  .App-header > .box-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .App-header .item{
+    padding: 0 20px;
+  }
+
+    .App-header .item .ico{
+      top: -1px;
+      vertical-align: middle;
+    }
+
+    .App-header .item span{
+      margin-left: 10px;
+      font-size: .5em;
+    }
+
+  .App-header .bt-menu{
+    float: left;
+    min-width: 80px;
+    height: 50px;
+    color: #202121;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+.logo-header{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 23px;
+  line-height: normal;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+  .logo-header a{
+    font-size: .7em;
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo-header a span{
+    position: absolute;
+    margin-top: 6px;
+  }
+
+.App-intro {
+  margin: 50px 0 0 0;
+  font-size: 1em;
+}
+
+.item-right{
+  position: relative;
+  width: 150px;
+  height: 50px;
+  padding: 0 !important;
+  overflow: hidden;
+  text-align: center;
+  background-color: grey;
+}
+
+.button-default a {
+  text-decoration: none;  
+  color: black;
+  font-size: .7em;
+}
+
+	.button-default a:hover{
+		color: white;
+	}
+
+.button-std{
+  background-color: #f2f2f2;
+  border: 0;
+  outline: 0;
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.drawer-content{
+  width: 200px;
+  height: 300px;
+  margin: 110px 0 0 15px;
+}
+
+	.drawer-content ul{
+		list-style-type: none;
+	}
+
+	.drawer-content ul li {
+		margin-top: 20px;
+	}
+
+	.drawer-content ul li a{
+	  text-decoration: none;  
+	  color: black;
+	  font-size: 1.5em;
+	}
+
+	.drawer-content ul li a:hover{
+		background-color: black;
+		color: white;
+	}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+/* --------------------------GENERAL----------------------------- */
+.ico{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    fill: #202121;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    fill: white;
+}
+

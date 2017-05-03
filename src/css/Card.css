@@ -1,0 +1,35 @@
+.square-container{
+	margin: 0 1% 0 1%;
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 32%;
+    padding-bottom : 32%; /* = width for a 1:1 aspect ratio */
+    margin:.66%;
+    overflow:hidden;
+}
+
+.square:hover {
+    opacity: .6;
+}
+
+.square-img{
+	width: 100%;
+}
+
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+@media screen and (max-width: 600px) {
+  .square {
+    width: 98% !important;
+    padding-bottom: 100% !important; /* = width for a 1:1 aspect ratio */
+  }
+}

@@ -1,0 +1,16 @@
+.contact {
+	margin-left: 10%;
+	padding: 0;
+	position: fixed;
+	bottom: 10%;
+}
+
+.contact h1 {
+	margin: 0;
+}
+
+.contact a {
+	text-decoration: none;
+	font-size: 1.45em;
+	color: #5c5e62;
+}
