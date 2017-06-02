@@ -7,7 +7,7 @@ node_modules
 coverage
 
 # production
-coverage
+build
 
 # misc
 .DS_Store
