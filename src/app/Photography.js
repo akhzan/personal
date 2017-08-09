@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Card from '../components/Card.js';
 
 import '../css/Photography.css';
-var data = require('../json/photography.json');
 
 const images = ["https://farm5.staticflickr.com/4424/35654004323_6f37ec2770_n.jpg",
 		"https://farm5.staticflickr.com/4408/36416292766_4bf6ec58a9_n.jpg",
