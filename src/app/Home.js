@@ -9,8 +9,8 @@ class Home extends Component{
 				<div className="con-home">
 					<div className="ganjel"></div>
 					<div alt="img" className="squareimg-home zcontent-home" style={{backgroundImage: 'url(https://c1.staticflickr.com/3/2829/32788861903_2f191cc7a2_b.jpg)'}}></div>
-					<div alt="img" className="squareimg-home xcontent-home" style={{backgroundImage: 'url(https://c1.staticflickr.com/3/2926/32787146073_de46d0f29c_b.jpg)'}}></div>
-					<div alt="img" className="squareimg-home xcontent-home" style={{backgroundImage: 'url(https://c1.staticflickr.com/4/3842/32787668403_9e68f6dc8b_b.jpg)'}}></div>
+					<div alt="img" className="squareimg-home xcontent-home" style={{backgroundImage: 'url(https://farm5.staticflickr.com/4341/36416293376_76beee191a_n.jpg'}}></div>
+					<div alt="img" className="squareimg-home xcontent-home" style={{backgroundImage: 'url(https://farm5.staticflickr.com/4400/35654213743_73cbfbaa8b_n.jpg)'}}></div>
 				</div>
 				<div className="titleHome">
 					<p className="p1-home">Hey, I'm Rizal</p>
