@@ -44,12 +44,12 @@ class App extends Component {
           onClose={this.onDrawerClose}>
           <div className="drawer-content">
           	<ul>
-	         	<li><Link to="/home" onClick={this.onDrawerClose} activeClassName="active">Home</Link></li>
-	         	<li><Link to="/profile" onClick={this.onDrawerClose} activeClassName="active">Profile</Link></li>
-	          	<li><Link to="/photography" onClick={this.onDrawerClose} activeClassName="active">Photography</Link></li>
-	          	<li><Link to="/drawing" onClick={this.onDrawerClose} activeClassName="active">Illustration</Link></li>
-	          	<li><Link to="/contact" onClick={this.onDrawerClose} activeClassName="active">Contact</Link></li>
-	        </ul>
+	         	 <li><Link to="/home" onClick={this.onDrawerClose} activeClassName="active">Home</Link></li>
+	         	 <li><Link to="/profile" onClick={this.onDrawerClose} activeClassName="active">Profile</Link></li>
+	           <li><Link to="/photography" onClick={this.onDrawerClose} activeClassName="active">Photography</Link></li>
+	           <li><Link to="/drawing" onClick={this.onDrawerClose} activeClassName="active">Illustration</Link></li>
+	           <li><Link to="/contact" onClick={this.onDrawerClose} activeClassName="active">Contact</Link></li>
+	         </ul>
           </div>
         </ReactDrawer>
 
